@@ -1,8 +1,20 @@
 # Boundary-Detection-using-Pb-lite
-This project investigates computer vision techniques
-across two distinct phases: traditional boundary detection meth-
-ods and neural network optimization. Phase 1 examines the
-creation and implementation of diverse filter banks for im-
-age processing. Phase 2 focuses on enhancing neural network
-performance through advanced architectural modifications and
-optimization strategies.
+ The objective of this project is to implement a simplified
+ version of the PB-lite boundary detection algorithm, where
+ ”Pb” stands for Probability of Boundary. The algorithm lever
+ages texture, brightness, and color information at multiple
+ scales to improve upon the Sobel and Canny baseline methods.
+ The algorithm can be divided into four steps:
+ 1) Generation of Filter bank
+ 2) Generation of Texton, Brightness, and Color maps
+ 3) Generation of Texton, Brightness, and Color gradient
+ maps
+ 4) Boundary detection using the maps, Sobel, and Canny
+ baseline
+![image](https://github.com/user-attachments/assets/8d80e95c-dcaf-4348-8145-18bdadd79fe7)
+![image](https://github.com/user-attachments/assets/2964aa9f-b4fb-4d60-9b52-6c6945335098)
+![image](https://github.com/user-attachments/assets/388360b3-032e-43fc-a8b2-da459ea8d506)
+![image](https://github.com/user-attachments/assets/4a9009c4-77e1-43bf-9939-6d77734ddedf)
+
+Please see report for more detailed description.
+
